@@ -68,7 +68,7 @@ class TestCalculation {
         var firstValue: Double = 60.0
         var secondValue: Double = 10.0
         var expectedValue: Double = 6.0
-        assertEquals("Result of Divide is ", expectedValue, firstValue / secondValue, 0.0)
+        assertEquals("Result of Division is ", expectedValue, firstValue / secondValue, 0.0)
 
     }
 
