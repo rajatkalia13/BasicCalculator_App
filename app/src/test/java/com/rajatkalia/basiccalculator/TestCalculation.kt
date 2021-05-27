@@ -39,7 +39,7 @@ class TestCalculation {
         var firstValue: Double = 6.0
         var secondValue: Double = 2.0
         var expectedValue: Double = 4.0
-        assertEquals("Result of Addition is ", expectedValue, firstValue - secondValue, 0.0)
+        assertEquals("Result of Subtraction is ", expectedValue, firstValue - secondValue, 0.0)
 
     }
 
@@ -54,7 +54,7 @@ class TestCalculation {
         var firstValue: Double = 4.0
         var secondValue: Double = 5.0
         var expectedValue: Double = 20.0
-        assertEquals("Result of Addition is ", expectedValue, firstValue * secondValue, 0.0)
+        assertEquals("Result of Multiplication is ", expectedValue, firstValue * secondValue, 0.0)
 
     }
 
@@ -68,7 +68,7 @@ class TestCalculation {
         var firstValue: Double = 60.0
         var secondValue: Double = 10.0
         var expectedValue: Double = 6.0
-        assertEquals("Result of Addition is ", expectedValue, firstValue / secondValue, 0.0)
+        assertEquals("Result of Divide is ", expectedValue, firstValue / secondValue, 0.0)
 
     }
 
@@ -83,7 +83,7 @@ class TestCalculation {
         var firstValue: Double = 80.0
         var secondValue: Double = 100.0
         var expectedValue: Double = 80.0
-        assertEquals("Result of Addition is ", expectedValue, firstValue % secondValue, 0.0)
+        assertEquals("Result of Percentage is ", expectedValue, firstValue % secondValue, 0.0)
 
     }
 }

@@ -310,6 +310,14 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+    
+    
+    
+    
+    //brackets function
+    fun clickBrackets(view: View) {
+        Toast.makeText(this, "This button is not working", Toast.LENGTH_SHORT).show()
+    }
 
 
     fun addToString(str: String, pos: Int, ins: String): String {
@@ -348,5 +356,7 @@ class MainActivity : AppCompatActivity() {
         }
         return str
     }
+
+   
 
 }
